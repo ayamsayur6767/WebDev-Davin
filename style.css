@@ -1,0 +1,64 @@
+body {
+   background-color: rgb(203, 214, 220) ;
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+}
+
+
+.card {
+   background-color: rgb(228, 236, 241);
+   width: 300px;
+   padding: 25px;
+   border-radius: 15px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+
+.Photo-Profile {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 3px solid rgb(58, 0, 218);
+}
+
+
+.nama {
+   color: #222;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+
+.status {
+   color: rgb(9, 4, 4);
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 5px;
+   text-align: center;
+}
+
+
+.bio {
+   color: #555;
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+
+.contact {
+   display: inline-block;
+   background-color: rgb(15, 171, 186);
+   color: rgb(222, 237, 236);
+   padding: 10px 20px;
+   margin-top: 10px;
+   border-radius: 20px;
+   text-decoration: none;
+   font-weight: bold;
+}
